@@ -5,7 +5,7 @@ function entrar() {
     alert('Este estabelecimeento só aceita pessoas maiores de idade.')
     let nome = prompt('Informe seu primeiro nome.')
     let sobrenome = prompt('Informe seu sobrenome.')
-    let nascimento = parseInt(prompt('Informe o seu ano de cascimento com quatro dígitos.')) 
+    let nascimento = parseInt(prompt('Informe o seu ano de nascimento com quatro dígitos.')) 
     let anoAtual = data.getFullYear()
 
     let idade =  anoAtual - nascimento
